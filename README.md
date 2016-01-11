@@ -1,6 +1,8 @@
 # DuoTone Light Space
 
-A double-hue light syntax theme for Atom. I prefer dark themes but working full days in the command line and IDE take their toll on the eyes, especially while working with dark themes ([proof](http://ux.stackexchange.com/questions/53264/dark-or-white-color-theme-is-better-for-the-eyes)). So I decided to contribute a light, space inspired light theme.
+A double-hue light syntax theme for Atom based on [duotone-syntax](https://github.com/simurai/duotone-syntax).
+
+I prefer dark themes but working for full days in dark IDE take their toll on the eyes ([proof](http://ux.stackexchange.com/questions/53264/dark-or-white-color-theme-is-better-for-the-eyes)). So I decided to contribute a light, space inspired light theme.
 
 ![duotone](https://dl.dropboxusercontent.com/u/20823269/duotone-light-space.png)
 
