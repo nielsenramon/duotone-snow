@@ -1,0 +1,17 @@
+{
+  "name": "duotone-light-space",
+  "theme": "syntax",
+  "version": "0.1.0",
+  "description": "Light spacy theme for Atom",
+  "keywords": [
+    "duotone",
+    "syntax",
+    "light",
+    "space"
+  ],
+  "repository": "https://github.com/nielsenramon/duotone-light-space",
+  "license": "MIT",
+  "engines": {
+    "atom": ">1.0.0"
+  }
+}

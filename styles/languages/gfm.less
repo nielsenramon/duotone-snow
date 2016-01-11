@@ -1,0 +1,60 @@
+// GF MarkDown
+
+.gfm {
+  .uno-1();
+  .punctuation-mixin();
+
+  .link {
+    .uno-2();
+  }
+
+  &.markup {
+    .uno-2();
+
+    &.bold   { .bold(); }
+    &.italic { .italic(); }
+    &.strike {
+      .uno-4();
+      text-decoration: line-through;
+    }
+
+    &.raw {
+      .duo-1(); // Fenced code blocks
+    }
+
+    &.raw .support,
+    &.code .support {
+      .uno-4(); // Fenced code blocks
+    }
+  }
+
+  &.comment  {
+    .uno-4();
+    &.quote {
+      .uno-2();
+    }
+  }
+
+  &.table {
+    .duo-1();
+
+    .border,
+    .pipe {
+      .uno-4();
+    }
+  }
+
+  &.variable,
+  &.entity {
+    .duo-1();
+  }
+  &.support  { .duo-2(); }
+
+  &.heading-1 { .duo-1(); }
+  &.heading-2 { .duo-2(); }
+  &.heading-3 { .uno-1(); }
+  &.heading-4 { .uno-2(); }
+  &.heading-5 { .uno-3(); }
+  &.heading-6 { .uno-4(); }
+
+}
