@@ -1,15 +1,15 @@
 {
-  "name": "duotone-light-space",
+  "name": "duotone-snow",
   "theme": "syntax",
   "version": "0.2.0",
-  "description": "Light spacy theme for Atom",
+  "description": "White easy on the eyes duotone syntax theme with soft blue and red colors.",
   "keywords": [
     "duotone",
     "syntax",
     "light",
-    "space"
+    "white"
   ],
-  "repository": "https://github.com/nielsenramon/duotone-light-space",
+  "repository": "https://github.com/nielsenramon/duotone-snow",
   "license": "MIT",
   "engines": {
     "atom": ">1.0.0"
