@@ -1,0 +1,99 @@
+{
+  "name": "nielsenramon/duotone-snow",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.19"
+  },
+  "title": "Duotone Snow",
+  "branch": "master",
+  "style": {
+    "name": "Brutalist",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BasicHeader",
+      "article": "article/MarkdownArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "Consolas, \"Liberation Mono\", Menlo, Courier, monospace",
+    "heading": {},
+    "typeScale": [
+      48,
+      32,
+      20,
+      18,
+      16,
+      14,
+      12
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "fluid": true
+    },
+    "colors": {
+      "text": "#333",
+      "background": "#fff",
+      "primary": "#666",
+      "secondary": "#888",
+      "highlight": "#1f80ff",
+      "muted": "#f6f6f6",
+      "border": "#eee"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://atom.io/themes/duotone-snow",
+          "text": "Home"
+        },
+        {
+          "href": "https://github.com/nielsenramon/duotone-snow",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/duotone-snow",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "duotone-snow",
+      "subhead": "A double-hue white syntax theme for Atom",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "duotone-snow: A double-hue white syntax theme for Atom",
+          "url": "https://atom.io/themes/duotone-snow"
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "nielsenramon",
+          "repo": "duotone-snow"
+        }
+      ],
+      "text": "v1.2.0"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<p>A double-hue white syntax theme for Atom based on <a href=\"https://github.com/simurai/duotone-syntax\">duotone-syntax</a>.</p>\n<p>I prefer dark themes but working for full days in dark IDE take their toll on the eyes (<a href=\"http://ux.stackexchange.com/questions/53264/dark-or-white-color-theme-is-better-for-the-eyes\">proof</a>). So I decided to contribute a white syntax theme.</p>\n<p></p>\n<p>DuoTone themes use only 2 hues (7 shades in total). It <strong>tones down</strong> less important parts (like punctuation and brackets) and highlights only the <strong>important</strong> ones. This leads to a more calm color scheme, but still lets you find the stuff you&apos;re looking for.</p>\n<h2>Language support</h2>\n<p>DuoTone themes are optimized for many languages:</p>\n<blockquote>\n<p>C, Clojure, CoffeeScript, C#, CSS, GF Markdown, Go, Haskell, HTML, Java, JavaScript, JSON, Less, Perl, PHP, Python, Ruby, SASS, SCSS, Stylus, XML, YAML...</p>\n</blockquote>\n<p>More optimizations to come. See the growing list of <a href=\"/styles/languages\">all languages</a>.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/nielsenramon/duotone-snow",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/nielsenramon",
+          "text": "nielsenramon"
+        }
+      ]
+    }
+  ]
+}
