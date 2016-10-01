@@ -2,7 +2,23 @@
 
 .css {
   &.source {
-    .uno-4();
+    .uno-5();
+  }
+  &.attribute-name {
+    &.id,
+    &.class,
+    &.parent-selector {
+      .uno-1();
+    }
+  }
+  &.unit {
+    .duo-2();
+  }
+  &.function {
+    .duo-3();
+  }
+  &.punctuation.terminator {
+    .duo-3();
   }
   &.at-rule {
     .uno-1();
@@ -10,10 +26,5 @@
       color: inherit;
     }
   }
-  &.attribute-name {
-    &.id,
-    &.class {
-      .uno-1();
-    }
-  }
+
 }

@@ -6,7 +6,7 @@ I prefer dark themes but working for full days in dark IDE take their toll on th
 
 <img src="https://dl.dropboxusercontent.com/u/20823269/duotone-snow.png" width="500" />
 
-DuoTone themes use only 2 hues (7 shades in total). It __tones down__ less important parts (like punctuation and brackets) and highlights only the __important__ ones. This leads to a more calm color scheme, but still lets you find the stuff you're looking for.
+DuoTone themes use only 2 hues (8 shades in total). It __tones down__ less important parts (like punctuation and brackets) and highlights only the __important__ ones. This leads to a more calm color scheme, but still lets you find the stuff you're looking for.
 
 ## Language support
 
