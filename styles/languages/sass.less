@@ -3,7 +3,7 @@
 .syntax--sass {
   .syntax--at-rule .syntax--at-rule {
     &,
-    > .syntax--punctuation{
+    > .syntax--punctuation {
       .uno-1();
     }
   }
@@ -16,15 +16,20 @@
     .syntax--function {
       .uno-2();
     }
-    .syntax--punctuation {
-      .uno-5();
-    }
   }
-  &.syntax--variable.syntax--parameter.syntax--url {
+  &.syntax--variable.syntax--parameter.syntax--url,
+  .syntax--include {
     .duo-1();
   }
   &.syntax--class,
   &.syntax--parent-selector-suffix {
     .uno-1();
+  }
+  .syntax--keyframes {
+    .uno-3();
+  }
+  .syntax--punctuation,
+  .syntax--set {
+    .uno-5();
   }
 }
